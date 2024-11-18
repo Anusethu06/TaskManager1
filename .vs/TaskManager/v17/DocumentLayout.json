@@ -1,0 +1,279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sakth\\source\\repos\\TaskManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|c:\\users\\sakth\\source\\repos\\taskmanager\\pages\\viewtaskdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|solutionrelative:pages\\viewtaskdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|c:\\users\\sakth\\source\\repos\\taskmanager\\pages\\viewtaskdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|solutionrelative:pages\\viewtaskdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|c:\\users\\sakth\\source\\repos\\taskmanager\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|solutionrelative:taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|c:\\users\\sakth\\source\\repos\\taskmanager\\json.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|solutionrelative:json.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|c:\\users\\sakth\\source\\repos\\taskmanager\\model\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|solutionrelative:model\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|c:\\users\\sakth\\source\\repos\\taskmanager\\model\\tasksid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|solutionrelative:model\\tasksid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|c:\\users\\sakth\\source\\repos\\taskmanager\\httpoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|solutionrelative:httpoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|c:\\users\\sakth\\source\\repos\\taskmanager\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|c:\\users\\sakth\\source\\repos\\taskmanager\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|solutionrelative:pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|c:\\users\\sakth\\source\\repos\\taskmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|c:\\users\\sakth\\source\\repos\\taskmanager\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|c:\\users\\sakth\\source\\repos\\taskmanager\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|solutionrelative:pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|c:\\users\\sakth\\source\\repos\\taskmanager\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|c:\\users\\sakth\\source\\repos\\taskmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|c:\\users\\sakth\\source\\repos\\taskmanager\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{18A1DC6C-82E6-4E22-A49F-83D2E6F9EB43}|TaskManager.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\sakth\\source\\repos\\TaskManager\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\sakth\\source\\repos\\TaskManager\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-17T22:19:38.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HttpOperations.cs",
+              "DocumentMoniker": "C:\\Users\\sakth\\source\\repos\\TaskManager\\HttpOperations.cs",
+              "RelativeDocumentMoniker": "HttpOperations.cs",
+              "ToolTip": "C:\\Users\\sakth\\source\\repos\\TaskManager\\HttpOperations.cs",
+              "RelativeToolTip": "HttpOperations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T21:18:22.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Json.cs",
+              "DocumentMoniker": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Json.cs",
+              "RelativeDocumentMoniker": "Json.cs",
+              "ToolTip": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Json.cs",
+              "RelativeToolTip": "Json.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwEEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T21:10:49.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TasksId.cs",
+              "DocumentMoniker": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Model\\TasksId.cs",
+              "RelativeDocumentMoniker": "Model\\TasksId.cs",
+              "ToolTip": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Model\\TasksId.cs",
+              "RelativeToolTip": "Model\\TasksId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T21:02:50.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\sakth\\source\\repos\\TaskManager\\TaskItem.cs",
+              "RelativeDocumentMoniker": "TaskItem.cs",
+              "ToolTip": "C:\\Users\\sakth\\source\\repos\\TaskManager\\TaskItem.cs",
+              "RelativeToolTip": "TaskItem.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T20:46:39.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-17T17:37:25.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwBgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T17:19:46.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T17:22:51.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T12:20:05.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewTaskDetails.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Pages\\ViewTaskDetails.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\ViewTaskDetails.cshtml.cs",
+              "ToolTip": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Pages\\ViewTaskDetails.cshtml.cs",
+              "RelativeToolTip": "Pages\\ViewTaskDetails.cshtml.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAiwJMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T00:31:06.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewTaskDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Pages\\ViewTaskDetails.cshtml",
+              "RelativeDocumentMoniker": "Pages\\ViewTaskDetails.cshtml",
+              "ToolTip": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Pages\\ViewTaskDetails.cshtml",
+              "RelativeToolTip": "Pages\\ViewTaskDetails.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAiwEQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T02:26:10.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T18:13:48.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAiwHwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:07:27.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tasks.cs",
+              "DocumentMoniker": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Model\\Tasks.cs",
+              "RelativeDocumentMoniker": "Model\\Tasks.cs",
+              "ToolTip": "C:\\Users\\sakth\\source\\repos\\TaskManager\\Model\\Tasks.cs",
+              "RelativeToolTip": "Model\\Tasks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:03:04.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sakth\\source\\repos\\TaskManager\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\sakth\\source\\repos\\TaskManager\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-14T17:59:43.267Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

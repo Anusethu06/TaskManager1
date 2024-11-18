@@ -1,0 +1,187 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NonFactors.Grid.Core.Mvc6/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Mvc.Grid.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Mvc.Grid.Core.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "NonFactors.Grid.Mvc6/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NonFactors.Grid.Core.Mvc6": "[8.0.0]"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "NonFactors.Grid.Core.Mvc6/8.0.0": {
+      "sha512": "8+H37DQw+EPOKNCO/fNP34L9cdSqYsIrGn+MhgBexgmHHM20EoFuBsrd9F0Jp0unGE2LvuBYO0wbCMU5J+Iw5A==",
+      "type": "package",
+      "path": "nonfactors.grid.core.mvc6/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Mvc.Grid.Core.dll",
+        "nonfactors.grid.core.mvc6.8.0.0.nupkg.sha512",
+        "nonfactors.grid.core.mvc6.nuspec"
+      ]
+    },
+    "NonFactors.Grid.Mvc6/8.0.0": {
+      "sha512": "RlCJEyMg0TI7gPMh5DQ0Ao/cDzQuVq5MrzxwALLMq9AsJ+pR0FaOWHIb1feiwC06P9PCpv2YcJdvrRr/QuE/VA==",
+      "type": "package",
+      "path": "nonfactors.grid.mvc6/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Views/Shared/MvcGrid/_Grid.cshtml",
+        "content/Views/Shared/MvcGrid/_Pager.cshtml",
+        "content/css/mvc-grid/fonts/grid-glyphs.woff",
+        "content/css/mvc-grid/mvc-grid.css",
+        "content/js/mvc-grid/mvc-grid.js",
+        "nonfactors.grid.mvc6.8.0.0.nupkg.sha512",
+        "nonfactors.grid.mvc6.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Newtonsoft.Json >= 13.0.3",
+      "NonFactors.Grid.Mvc6 >= 8.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sakth\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\sakth\\source\\repos\\TaskManager\\TaskManager.csproj",
+      "projectName": "TaskManager",
+      "projectPath": "C:\\Users\\sakth\\source\\repos\\TaskManager\\TaskManager.csproj",
+      "packagesPath": "C:\\Users\\sakth\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sakth\\source\\repos\\TaskManager\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\sakth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
+          },
+          "NonFactors.Grid.Mvc6": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,200 @@
+﻿
+
+@page
+@* @using TaskManager.Model *@
+  @model IndexModel
+
+
+@{
+    ViewData["Title"] = "";
+    
+}
+<h1>@ViewData["Title"]</h1>
+
+<html>
+<head>
+    <style>
+        select#Status {
+            max-width:100px;
+            min-width: 100px;
+            width: 100px !important;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/css/mvc-grid/mvc-grid.css" rel="stylesheet" />
+</head>
+<body style="background-color:lightgray">
+    <form action="" method="post" name="registration" class="register form-horizontal" >
+         <div class="col-sm-6" >
+        @* <div class="modal fade" id="myModal"> *@
+            <label for="Prioritylabel" class="col-sm-2 control-label">Priority: </label>
+            @* <input name="Priority" class="form-control" asp-for="Priority"> *@
+            <select name="Priority" id="Priority" asp-for="Priority" class="dropdown" style="min-width:50px;" >
+                <option value=""></option>
+                <option value=1>1</option>
+                <option value=2>2</option>
+                <option value=3>3</option>
+                <option value=4>4</option>
+                <option value=5>5</option>
+                <option value=6>6</option>
+
+            </select>
+
+            <label for="Status" class="col-sm-2 control-label">Status: </label>
+            <select name="Status" id="Status" asp-for="Status" class="dropdown">
+                <option value=""></option>
+                <option value="Yet to Complete">Yet to Complete</option>
+                <option value="in Progress">in Progress</option>
+                <option value="Completed">Completed</option>
+            </select>
+            <form method="post">
+                <input asp-page-handler="Searchdata" id="Search" class="Search" type="submit" value="Search" />
+                <input type="hidden" name="Selectedpriority" id="Selectedpriority" value="" />
+                <input type="hidden" name="Selectedstatus" id="Selectedstatus" value="" />
+            </form>
+    </div>
+   
+    <div>
+
+        </div>
+        <br />
+        <table class="table" border="1" style="border-width:2px;border-block-color:black;">
+       
+        <thead>
+
+            <tr>
+                <th>Task Name</th>
+                <th>Priority</th>
+                <th>Status</th> 
+                <th></th>
+            </tr>
+        </thead>
+        <tbody >
+           @foreach (var tasklist in Model.tasklist.ToList())
+            {
+                    if (@tasklist.Priority>0)
+                    {
+                        <tr>
+                            <td> @tasklist.Name  </td>
+                            <td>@tasklist.Priority</td>
+                            <td>@tasklist.Status</td>
+                            <td>
+                                <form asp-route-LogId="@tasklist.Name" asp-page-handler="Updatedata">
+                                    <button class="btn btn-info" name="Edit/Delete">Edit/Delete</button>
+                                    <input type="hidden" name="LogId" value="@tasklist.Name" />
+                                </form>
+                            </td>
+                        </tr>
+                    }
+               
+            }            
+            
+        </tbody>
+    </table>        
+    </form>
+    <div>
+      
+    </div>
+    <form action="" method="post" name="registration" class="register form-horizontal">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Task Details</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+            
+                <div class="form-group">
+                        <label for="Name" class="col-sm-2 control-label">Name:</label>
+                      
+                            <input type="text" name="TaskName" asp-for="TaskName" readonly="true"  />
+                   
+                    </div>
+                
+            
+                    <div class="form-group">
+                        <label for="Status" class="col-sm-2 control-label">Status:</label>
+                    <select id="Statusval" name="Statusval" asp-for="Statusval">
+                        <option value=""></option>
+                        <option value="Yet to Complete">Yet to Complete</option>
+                        <option value="in Progress">in Progress</option>
+                        <option value="Completed">Completed</option>
+                    </select>
+                </div>
+                    <div class="form-group">
+                        <label for="Priority" class="col-sm-2 control-label">Priority:</label>
+                    <select name="Priorityval" asp-for="Priorityval">
+                        <option value=""></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="modal-footer">
+                   
+                     <button class="btn btn-info" name="regbutton" value="Create" data-pdsa-action="Save" asp-page-handler="Editdata">Submit</button>
+                        <button class="btn btn-info" name="delete" value="Create"  asp-page-handler="Deletedata" onclick="Validatedelete()">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+    
+</body>
+</html>
+@if (Model.ActionResultMessageText == string.Empty)
+{
+    <script type="text/javascript">
+       
+        window.onload = function () {
+            $("#exampleModal").modal("show")
+        };
+
+
+
+       
+
+    </script>
+}
+@section Scripts
+{
+    <script type="text/javascript">
+     
+       
+                  $("#Priority").on("change", function () {
+                     
+                      var selectedValue  = $(this).val();                   
+                       $('#Selectedpriority').val(selectedValue);   
+        });
+                  
+
+                      $("#Status").on("change", function () {                      
+                      var selectedValue  = $(this).val();                     ;
+                       $('#Selectedstatus').val(selectedValue); 
+        });
+
+
+        function Validatedelete()
+        {
+
+           var Status=document.getElementById("Statusval").value;
+          
+           if(Status!="Completed")
+           {
+               alert("Completed Status allowed only for deletion ");
+               event.preventDefault();
+               return false;
+           }
+
+        }
+
+ 
+                
+
+    </script>
+
+}

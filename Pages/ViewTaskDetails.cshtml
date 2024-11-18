@@ -1,0 +1,124 @@
+﻿@page
+@* @using TaskManager.Model *@
+ @model ViewTaskDetailsModel
+@* @model Tasks *@
+
+@{
+    ViewData["Title"] = "Home page";
+
+}
+
+<html>
+<head>
+
+</head>
+<body>
+
+    <form action="" method="post" name="registration" class="register form-horizontal" style="background-color:lightgray">
+        <fieldset>
+            <legend></legend>
+
+            <div class="form-group">
+                <label for="Name" class="col-sm-2 control-label">Name:</label>
+                <div class="col-sm-6" style="width:250px;">
+                    <input name="TaskName" id="name" class=" form-control" asp-for="TaskName">
+                </div>
+            </div>
+            <br />
+
+            <div class="form-group">
+                <label for="Priority" class="col-sm-2 control-label">Priority: </label>
+                <div class="col-sm-6">
+                    <select name="Priority" id="Priority" asp-for="Priority" class="dropdown" style="min-width:130px">
+                        <option value="">""</option>
+                        <option value=1>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                    </select>
+                </div>
+            </div>
+            <br />
+            <div class="form-group">
+                <label for="Status" class="col-sm-2 control-label">Status: </label>
+                <div class="col-sm-6">
+
+                    <div class="col-sm-6">
+                        <select name="Status" id="Status" asp-for="Status" style="min-width:50px;">
+                            <option value="">""</option>
+                            <option value="Yet to Complete">Yet to Complete</option>
+                            <option value="in Progress">in Progress</option>
+                            <option value="Completed">Completed</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <br />
+
+            <button class="btn btn-info" name="regbutton" value="Create" data-pdsa-action="Save" asp-page-handler="Createdata" onclick="Validatedata()">Submit</button>
+
+     
+         
+        </fieldset>
+    </form>
+   
+    <form action="" method="post" name="registration" class="register form-horizontal">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Task Details</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        @Model.ActionResultErrorMessageText
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
+
+
+
+@if (Model.ActionResultErrorMessageText != null)
+{
+    <script type="text/javascript">
+
+        window.onload = function () {
+              $("#exampleModal").modal("show")
+
+          };
+
+    </script>
+}
+
+
+<script type="text/javascript">
+    function Validatedata()
+    {
+
+       var Status=document.getElementById("Status").value;
+       var Priority=document.getElementById("Priority").value;
+       var TaskName=document.getElementById("name").value;
+      
+
+       if(Status=="" || Priority==0 || TaskName==null )
+       {
+           alert("Values are empty");
+           event.preventDefault();
+           return false;
+       }
+       if(Status=="Completed")
+       {
+           alert("Completed Status not allowed in Task Creation");
+           event.preventDefault();
+           return false;
+       }
+
+    }
+
+</script>
